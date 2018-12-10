@@ -1,0 +1,4 @@
+[07-Dec-2018 13:50:54 Europe/Berlin] PHP Parse error:  syntax error, unexpected end of file in /opt/lampp/htdocs/blogVoyage_MVC/model/model.php on line 94
+[08-Dec-2018 22:12:29 Europe/Berlin] PHP Parse error:  syntax error, unexpected '$eNum' (T_VARIABLE) in /opt/lampp/htdocs/blogVoyage_MVC/model/model.php on line 67
+[08-Dec-2018 22:13:55 Europe/Berlin] PHP Parse error:  syntax error, unexpected '$req' (T_VARIABLE) in /opt/lampp/htdocs/blogVoyage_MVC/model/model.php on line 68
+[08-Dec-2018 22:14:11 Europe/Berlin] PHP Parse error:  syntax error, unexpected '$req' (T_VARIABLE) in /opt/lampp/htdocs/blogVoyage_MVC/model/model.php on line 68

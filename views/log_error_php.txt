@@ -1,0 +1,106 @@
+[07-Dec-2018 10:27:47 Europe/Berlin] PHP Notice:  Undefined index: Id in /opt/lampp/htdocs/blogVoyage_MVC/views/listeArticlesView.php on line 27
+[07-Dec-2018 10:27:47 Europe/Berlin] PHP Notice:  Undefined index: Name in /opt/lampp/htdocs/blogVoyage_MVC/views/listeArticlesView.php on line 28
+[07-Dec-2018 10:27:47 Europe/Berlin] PHP Notice:  Undefined index: Date in /opt/lampp/htdocs/blogVoyage_MVC/views/listeArticlesView.php on line 29
+[07-Dec-2018 10:27:47 Europe/Berlin] PHP Notice:  Undefined index: Id in /opt/lampp/htdocs/blogVoyage_MVC/views/listeArticlesView.php on line 27
+[07-Dec-2018 10:27:47 Europe/Berlin] PHP Notice:  Undefined index: Name in /opt/lampp/htdocs/blogVoyage_MVC/views/listeArticlesView.php on line 28
+[07-Dec-2018 10:27:47 Europe/Berlin] PHP Notice:  Undefined index: Date in /opt/lampp/htdocs/blogVoyage_MVC/views/listeArticlesView.php on line 29
+[07-Dec-2018 10:27:47 Europe/Berlin] PHP Notice:  Undefined index: Id in /opt/lampp/htdocs/blogVoyage_MVC/views/listeArticlesView.php on line 27
+[07-Dec-2018 10:27:47 Europe/Berlin] PHP Notice:  Undefined index: Name in /opt/lampp/htdocs/blogVoyage_MVC/views/listeArticlesView.php on line 28
+[07-Dec-2018 10:27:47 Europe/Berlin] PHP Notice:  Undefined index: Date in /opt/lampp/htdocs/blogVoyage_MVC/views/listeArticlesView.php on line 29
+[07-Dec-2018 10:27:47 Europe/Berlin] PHP Notice:  Undefined index: Id in /opt/lampp/htdocs/blogVoyage_MVC/views/listeArticlesView.php on line 27
+[07-Dec-2018 10:27:47 Europe/Berlin] PHP Notice:  Undefined index: Name in /opt/lampp/htdocs/blogVoyage_MVC/views/listeArticlesView.php on line 28
+[07-Dec-2018 10:27:47 Europe/Berlin] PHP Notice:  Undefined index: Date in /opt/lampp/htdocs/blogVoyage_MVC/views/listeArticlesView.php on line 29
+[07-Dec-2018 10:27:47 Europe/Berlin] PHP Notice:  Undefined index: Id in /opt/lampp/htdocs/blogVoyage_MVC/views/listeArticlesView.php on line 27
+[07-Dec-2018 10:27:47 Europe/Berlin] PHP Notice:  Undefined index: Name in /opt/lampp/htdocs/blogVoyage_MVC/views/listeArticlesView.php on line 28
+[07-Dec-2018 10:27:47 Europe/Berlin] PHP Notice:  Undefined index: Date in /opt/lampp/htdocs/blogVoyage_MVC/views/listeArticlesView.php on line 29
+[07-Dec-2018 10:27:47 Europe/Berlin] PHP Notice:  Undefined index: Id in /opt/lampp/htdocs/blogVoyage_MVC/views/listeArticlesView.php on line 27
+[07-Dec-2018 10:27:47 Europe/Berlin] PHP Notice:  Undefined index: Name in /opt/lampp/htdocs/blogVoyage_MVC/views/listeArticlesView.php on line 28
+[07-Dec-2018 10:27:47 Europe/Berlin] PHP Notice:  Undefined index: Date in /opt/lampp/htdocs/blogVoyage_MVC/views/listeArticlesView.php on line 29
+[07-Dec-2018 10:27:47 Europe/Berlin] PHP Notice:  Undefined index: Id in /opt/lampp/htdocs/blogVoyage_MVC/views/listeArticlesView.php on line 27
+[07-Dec-2018 10:27:47 Europe/Berlin] PHP Notice:  Undefined index: Name in /opt/lampp/htdocs/blogVoyage_MVC/views/listeArticlesView.php on line 28
+[07-Dec-2018 10:27:47 Europe/Berlin] PHP Notice:  Undefined index: Date in /opt/lampp/htdocs/blogVoyage_MVC/views/listeArticlesView.php on line 29
+[07-Dec-2018 10:27:47 Europe/Berlin] PHP Notice:  Undefined index: Id in /opt/lampp/htdocs/blogVoyage_MVC/views/listeArticlesView.php on line 27
+[07-Dec-2018 10:27:47 Europe/Berlin] PHP Notice:  Undefined index: Name in /opt/lampp/htdocs/blogVoyage_MVC/views/listeArticlesView.php on line 28
+[07-Dec-2018 10:27:47 Europe/Berlin] PHP Notice:  Undefined index: Date in /opt/lampp/htdocs/blogVoyage_MVC/views/listeArticlesView.php on line 29
+[07-Dec-2018 10:27:47 Europe/Berlin] PHP Notice:  Undefined index: Id in /opt/lampp/htdocs/blogVoyage_MVC/views/listeArticlesView.php on line 27
+[07-Dec-2018 10:27:47 Europe/Berlin] PHP Notice:  Undefined index: Name in /opt/lampp/htdocs/blogVoyage_MVC/views/listeArticlesView.php on line 28
+[07-Dec-2018 10:27:47 Europe/Berlin] PHP Notice:  Undefined index: Date in /opt/lampp/htdocs/blogVoyage_MVC/views/listeArticlesView.php on line 29
+[07-Dec-2018 10:27:47 Europe/Berlin] PHP Notice:  Undefined index: Id in /opt/lampp/htdocs/blogVoyage_MVC/views/listeArticlesView.php on line 27
+[07-Dec-2018 10:27:47 Europe/Berlin] PHP Notice:  Undefined index: Name in /opt/lampp/htdocs/blogVoyage_MVC/views/listeArticlesView.php on line 28
+[07-Dec-2018 10:27:47 Europe/Berlin] PHP Notice:  Undefined index: Date in /opt/lampp/htdocs/blogVoyage_MVC/views/listeArticlesView.php on line 29
+[07-Dec-2018 10:27:47 Europe/Berlin] PHP Notice:  Undefined index: Id in /opt/lampp/htdocs/blogVoyage_MVC/views/listeArticlesView.php on line 27
+[07-Dec-2018 10:27:47 Europe/Berlin] PHP Notice:  Undefined index: Name in /opt/lampp/htdocs/blogVoyage_MVC/views/listeArticlesView.php on line 28
+[07-Dec-2018 10:27:47 Europe/Berlin] PHP Notice:  Undefined index: Date in /opt/lampp/htdocs/blogVoyage_MVC/views/listeArticlesView.php on line 29
+[07-Dec-2018 10:27:47 Europe/Berlin] PHP Notice:  Undefined index: Id in /opt/lampp/htdocs/blogVoyage_MVC/views/listeArticlesView.php on line 27
+[07-Dec-2018 10:27:47 Europe/Berlin] PHP Notice:  Undefined index: Name in /opt/lampp/htdocs/blogVoyage_MVC/views/listeArticlesView.php on line 28
+[07-Dec-2018 10:27:47 Europe/Berlin] PHP Notice:  Undefined index: Date in /opt/lampp/htdocs/blogVoyage_MVC/views/listeArticlesView.php on line 29
+[07-Dec-2018 10:27:47 Europe/Berlin] PHP Notice:  Undefined index: Id in /opt/lampp/htdocs/blogVoyage_MVC/views/listeArticlesView.php on line 27
+[07-Dec-2018 10:27:47 Europe/Berlin] PHP Notice:  Undefined index: Name in /opt/lampp/htdocs/blogVoyage_MVC/views/listeArticlesView.php on line 28
+[07-Dec-2018 10:27:47 Europe/Berlin] PHP Notice:  Undefined index: Date in /opt/lampp/htdocs/blogVoyage_MVC/views/listeArticlesView.php on line 29
+[07-Dec-2018 10:27:47 Europe/Berlin] PHP Notice:  Undefined index: Id in /opt/lampp/htdocs/blogVoyage_MVC/views/listeArticlesView.php on line 27
+[07-Dec-2018 10:27:47 Europe/Berlin] PHP Notice:  Undefined index: Name in /opt/lampp/htdocs/blogVoyage_MVC/views/listeArticlesView.php on line 28
+[07-Dec-2018 10:27:47 Europe/Berlin] PHP Notice:  Undefined index: Date in /opt/lampp/htdocs/blogVoyage_MVC/views/listeArticlesView.php on line 29
+[07-Dec-2018 10:27:47 Europe/Berlin] PHP Notice:  Undefined index: Id in /opt/lampp/htdocs/blogVoyage_MVC/views/listeArticlesView.php on line 27
+[07-Dec-2018 10:27:47 Europe/Berlin] PHP Notice:  Undefined index: Name in /opt/lampp/htdocs/blogVoyage_MVC/views/listeArticlesView.php on line 28
+[07-Dec-2018 10:27:47 Europe/Berlin] PHP Notice:  Undefined index: Date in /opt/lampp/htdocs/blogVoyage_MVC/views/listeArticlesView.php on line 29
+[07-Dec-2018 10:27:47 Europe/Berlin] PHP Notice:  Undefined index: Id in /opt/lampp/htdocs/blogVoyage_MVC/views/listeArticlesView.php on line 27
+[07-Dec-2018 10:27:47 Europe/Berlin] PHP Notice:  Undefined index: Name in /opt/lampp/htdocs/blogVoyage_MVC/views/listeArticlesView.php on line 28
+[07-Dec-2018 10:27:47 Europe/Berlin] PHP Notice:  Undefined index: Date in /opt/lampp/htdocs/blogVoyage_MVC/views/listeArticlesView.php on line 29
+[07-Dec-2018 10:27:47 Europe/Berlin] PHP Notice:  Undefined index: Id in /opt/lampp/htdocs/blogVoyage_MVC/views/listeArticlesView.php on line 27
+[07-Dec-2018 10:27:47 Europe/Berlin] PHP Notice:  Undefined index: Name in /opt/lampp/htdocs/blogVoyage_MVC/views/listeArticlesView.php on line 28
+[07-Dec-2018 10:27:47 Europe/Berlin] PHP Notice:  Undefined index: Date in /opt/lampp/htdocs/blogVoyage_MVC/views/listeArticlesView.php on line 29
+[07-Dec-2018 13:26:42 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function getArticlesAsArray() in /opt/lampp/htdocs/blogVoyage_MVC/views/listeArticlesView.php:17
+Stack trace:
+#0 /opt/lampp/htdocs/blogVoyage_MVC/listeController.php(18): include()
+#1 {main}
+  thrown in /opt/lampp/htdocs/blogVoyage_MVC/views/listeArticlesView.php on line 17
+[07-Dec-2018 16:03:43 Europe/Berlin] PHP Notice:  Undefined variable: articles in /opt/lampp/htdocs/blogVoyage_MVC/views/listeArticlesView.php on line 25
+[07-Dec-2018 16:03:43 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /opt/lampp/htdocs/blogVoyage_MVC/views/listeArticlesView.php on line 25
+[07-Dec-2018 16:09:00 Europe/Berlin] PHP Notice:  Undefined variable: articles in /opt/lampp/htdocs/blogVoyage_MVC/views/listeArticlesView.php on line 25
+[07-Dec-2018 16:09:00 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /opt/lampp/htdocs/blogVoyage_MVC/views/listeArticlesView.php on line 25
+[08-Dec-2018 23:04:41 Europe/Berlin] PHP Notice:  Undefined variable: continents in /opt/lampp/htdocs/blogVoyage_MVC/Templates/nav.php on line 18
+[08-Dec-2018 23:04:41 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /opt/lampp/htdocs/blogVoyage_MVC/Templates/nav.php on line 18
+[08-Dec-2018 23:06:34 Europe/Berlin] PHP Notice:  Undefined variable: continents in /opt/lampp/htdocs/blogVoyage_MVC/Templates/nav.php on line 18
+[08-Dec-2018 23:06:34 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /opt/lampp/htdocs/blogVoyage_MVC/Templates/nav.php on line 18
+[08-Dec-2018 23:07:12 Europe/Berlin] PHP Notice:  Undefined variable: continents in /opt/lampp/htdocs/blogVoyage_MVC/Templates/nav.php on line 18
+[08-Dec-2018 23:07:12 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /opt/lampp/htdocs/blogVoyage_MVC/Templates/nav.php on line 18
+[08-Dec-2018 23:07:25 Europe/Berlin] PHP Notice:  Undefined variable: continents in /opt/lampp/htdocs/blogVoyage_MVC/Templates/nav.php on line 18
+[08-Dec-2018 23:07:25 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /opt/lampp/htdocs/blogVoyage_MVC/Templates/nav.php on line 18
+[08-Dec-2018 23:08:36 Europe/Berlin] PHP Notice:  Undefined variable: continents in /opt/lampp/htdocs/blogVoyage_MVC/Templates/nav.php on line 18
+[08-Dec-2018 23:08:36 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /opt/lampp/htdocs/blogVoyage_MVC/Templates/nav.php on line 18
+[08-Dec-2018 23:09:12 Europe/Berlin] PHP Notice:  Undefined variable: continents in /opt/lampp/htdocs/blogVoyage_MVC/Templates/nav.php on line 18
+[08-Dec-2018 23:09:12 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /opt/lampp/htdocs/blogVoyage_MVC/Templates/nav.php on line 18
+[08-Dec-2018 23:10:44 Europe/Berlin] PHP Notice:  Undefined variable: continents in /opt/lampp/htdocs/blogVoyage_MVC/Templates/nav.php on line 18
+[08-Dec-2018 23:10:44 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /opt/lampp/htdocs/blogVoyage_MVC/Templates/nav.php on line 18
+[08-Dec-2018 23:27:16 Europe/Berlin] PHP Warning:  include(Templates/header.php): failed to open stream: Aucun fichier ou dossier de ce type in /opt/lampp/htdocs/blogVoyage_MVC/views/listeArticlesView.php on line 9
+[08-Dec-2018 23:27:16 Europe/Berlin] PHP Warning:  include(): Failed opening 'Templates/header.php' for inclusion (include_path='.:/opt/lampp/lib/php') in /opt/lampp/htdocs/blogVoyage_MVC/views/listeArticlesView.php on line 9
+[08-Dec-2018 23:27:16 Europe/Berlin] PHP Warning:  include(Templates/nav.php): failed to open stream: Aucun fichier ou dossier de ce type in /opt/lampp/htdocs/blogVoyage_MVC/views/listeArticlesView.php on line 10
+[08-Dec-2018 23:27:16 Europe/Berlin] PHP Warning:  include(): Failed opening 'Templates/nav.php' for inclusion (include_path='.:/opt/lampp/lib/php') in /opt/lampp/htdocs/blogVoyage_MVC/views/listeArticlesView.php on line 10
+[08-Dec-2018 23:27:16 Europe/Berlin] PHP Warning:  include(Templates/carousel.php): failed to open stream: Aucun fichier ou dossier de ce type in /opt/lampp/htdocs/blogVoyage_MVC/views/listeArticlesView.php on line 11
+[08-Dec-2018 23:27:16 Europe/Berlin] PHP Warning:  include(): Failed opening 'Templates/carousel.php' for inclusion (include_path='.:/opt/lampp/lib/php') in /opt/lampp/htdocs/blogVoyage_MVC/views/listeArticlesView.php on line 11
+[08-Dec-2018 23:27:16 Europe/Berlin] PHP Warning:  include(Templates/presentation.php): failed to open stream: Aucun fichier ou dossier de ce type in /opt/lampp/htdocs/blogVoyage_MVC/views/listeArticlesView.php on line 12
+[08-Dec-2018 23:27:16 Europe/Berlin] PHP Warning:  include(): Failed opening 'Templates/presentation.php' for inclusion (include_path='.:/opt/lampp/lib/php') in /opt/lampp/htdocs/blogVoyage_MVC/views/listeArticlesView.php on line 12
+[08-Dec-2018 23:27:16 Europe/Berlin] PHP Warning:  include(Templates/footer.php): failed to open stream: Aucun fichier ou dossier de ce type in /opt/lampp/htdocs/blogVoyage_MVC/views/listeArticlesView.php on line 47
+[08-Dec-2018 23:27:16 Europe/Berlin] PHP Warning:  include(): Failed opening 'Templates/footer.php' for inclusion (include_path='.:/opt/lampp/lib/php') in /opt/lampp/htdocs/blogVoyage_MVC/views/listeArticlesView.php on line 47
+[08-Dec-2018 23:27:55 Europe/Berlin] PHP Warning:  include(Templates/header.php): failed to open stream: Aucun fichier ou dossier de ce type in /opt/lampp/htdocs/blogVoyage_MVC/views/listeArticlesView.php on line 9
+[08-Dec-2018 23:27:55 Europe/Berlin] PHP Warning:  include(): Failed opening 'Templates/header.php' for inclusion (include_path='.:/opt/lampp/lib/php') in /opt/lampp/htdocs/blogVoyage_MVC/views/listeArticlesView.php on line 9
+[08-Dec-2018 23:27:55 Europe/Berlin] PHP Warning:  include(Templates/nav.php): failed to open stream: Aucun fichier ou dossier de ce type in /opt/lampp/htdocs/blogVoyage_MVC/views/listeArticlesView.php on line 10
+[08-Dec-2018 23:27:55 Europe/Berlin] PHP Warning:  include(): Failed opening 'Templates/nav.php' for inclusion (include_path='.:/opt/lampp/lib/php') in /opt/lampp/htdocs/blogVoyage_MVC/views/listeArticlesView.php on line 10
+[08-Dec-2018 23:27:55 Europe/Berlin] PHP Warning:  include(Templates/carousel.php): failed to open stream: Aucun fichier ou dossier de ce type in /opt/lampp/htdocs/blogVoyage_MVC/views/listeArticlesView.php on line 11
+[08-Dec-2018 23:27:55 Europe/Berlin] PHP Warning:  include(): Failed opening 'Templates/carousel.php' for inclusion (include_path='.:/opt/lampp/lib/php') in /opt/lampp/htdocs/blogVoyage_MVC/views/listeArticlesView.php on line 11
+[08-Dec-2018 23:27:55 Europe/Berlin] PHP Warning:  include(Templates/presentation.php): failed to open stream: Aucun fichier ou dossier de ce type in /opt/lampp/htdocs/blogVoyage_MVC/views/listeArticlesView.php on line 12
+[08-Dec-2018 23:27:55 Europe/Berlin] PHP Warning:  include(): Failed opening 'Templates/presentation.php' for inclusion (include_path='.:/opt/lampp/lib/php') in /opt/lampp/htdocs/blogVoyage_MVC/views/listeArticlesView.php on line 12
+[08-Dec-2018 23:27:55 Europe/Berlin] PHP Warning:  include(Templates/footer.php): failed to open stream: Aucun fichier ou dossier de ce type in /opt/lampp/htdocs/blogVoyage_MVC/views/listeArticlesView.php on line 47
+[08-Dec-2018 23:27:55 Europe/Berlin] PHP Warning:  include(): Failed opening 'Templates/footer.php' for inclusion (include_path='.:/opt/lampp/lib/php') in /opt/lampp/htdocs/blogVoyage_MVC/views/listeArticlesView.php on line 47
+[08-Dec-2018 23:28:10 Europe/Berlin] PHP Warning:  include(Templates/header.php): failed to open stream: Aucun fichier ou dossier de ce type in /opt/lampp/htdocs/blogVoyage_MVC/views/listeArticlesView.php on line 9
+[08-Dec-2018 23:28:10 Europe/Berlin] PHP Warning:  include(): Failed opening 'Templates/header.php' for inclusion (include_path='.:/opt/lampp/lib/php') in /opt/lampp/htdocs/blogVoyage_MVC/views/listeArticlesView.php on line 9
+[08-Dec-2018 23:28:10 Europe/Berlin] PHP Warning:  include(Templates/nav.php): failed to open stream: Aucun fichier ou dossier de ce type in /opt/lampp/htdocs/blogVoyage_MVC/views/listeArticlesView.php on line 10
+[08-Dec-2018 23:28:10 Europe/Berlin] PHP Warning:  include(): Failed opening 'Templates/nav.php' for inclusion (include_path='.:/opt/lampp/lib/php') in /opt/lampp/htdocs/blogVoyage_MVC/views/listeArticlesView.php on line 10
+[08-Dec-2018 23:28:10 Europe/Berlin] PHP Warning:  include(Templates/carousel.php): failed to open stream: Aucun fichier ou dossier de ce type in /opt/lampp/htdocs/blogVoyage_MVC/views/listeArticlesView.php on line 11
+[08-Dec-2018 23:28:10 Europe/Berlin] PHP Warning:  include(): Failed opening 'Templates/carousel.php' for inclusion (include_path='.:/opt/lampp/lib/php') in /opt/lampp/htdocs/blogVoyage_MVC/views/listeArticlesView.php on line 11
+[08-Dec-2018 23:28:10 Europe/Berlin] PHP Warning:  include(Templates/presentation.php): failed to open stream: Aucun fichier ou dossier de ce type in /opt/lampp/htdocs/blogVoyage_MVC/views/listeArticlesView.php on line 12
+[08-Dec-2018 23:28:10 Europe/Berlin] PHP Warning:  include(): Failed opening 'Templates/presentation.php' for inclusion (include_path='.:/opt/lampp/lib/php') in /opt/lampp/htdocs/blogVoyage_MVC/views/listeArticlesView.php on line 12
+[08-Dec-2018 23:28:10 Europe/Berlin] PHP Warning:  include(Templates/footer.php): failed to open stream: Aucun fichier ou dossier de ce type in /opt/lampp/htdocs/blogVoyage_MVC/views/listeArticlesView.php on line 47
+[08-Dec-2018 23:28:10 Europe/Berlin] PHP Warning:  include(): Failed opening 'Templates/footer.php' for inclusion (include_path='.:/opt/lampp/lib/php') in /opt/lampp/htdocs/blogVoyage_MVC/views/listeArticlesView.php on line 47
+[08-Dec-2018 23:28:43 Europe/Berlin] PHP Warning:  include(Templates/footer.php): failed to open stream: No such file or directory in /opt/lampp/htdocs/blogVoyage_MVC/views/listeArticlesView.php on line 47
+[08-Dec-2018 23:28:43 Europe/Berlin] PHP Warning:  include(): Failed opening 'Templates/footer.php' for inclusion (include_path='.:/opt/lampp/lib/php') in /opt/lampp/htdocs/blogVoyage_MVC/views/listeArticlesView.php on line 47

@@ -1,0 +1,146 @@
+.carousel-caption{
+
+padding-bottom: 50px;
+}
+
+h1{
+
+padding-top: 40px;
+padding-bottom: 40px;
+font-size: 50px;
+font-family: "Rozha One", Sans-serif;
+}
+
+h2{
+
+font-size: 20px;
+}
+
+@font-face {
+
+font-family: "Rozha One";
+src: url('../assets/font/RozhaOne-Regular.otf');
+}
+
+h3{
+
+font-size: 10px;
+
+}
+
+h4{
+
+font-size: 15px;
+font-style: italic;
+font-weight: bold;
+padding-top:20px;
+padding-bottom:40px;
+
+}
+
+h5{
+
+font-size: 50px;
+}
+
+p{
+
+color: #666666;
+font-family: 'Open Sans Condensed', sans-serif;
+}
+
+* {
+
+box-sizing: border-box;
+}
+
+nav{
+  margin-bottom: 40px;
+  border-bottom: 1px black solid;
+  padding-top: 40px;
+}
+
+body {
+
+background: rgb(255, 255, 255);
+margin: 0;
+font-family: 'Roboto', sans-serif;
+}
+
+.container-fluid {
+
+max-width: 1000px;
+margin: 0 auto;
+}
+
+.presentation img{
+
+border-radius: 50% 50%;
+padding: 20px 0 20px;
+margin: 20px 0 50px;
+
+}
+
+.article img{
+
+padding:15px 0 15px 0 ;
+
+}
+
+.formulaires{
+
+height: 550px;
+}
+
+.footer {
+
+left: 0;
+bottom: 0;
+width: 100%;
+height: 70px;
+background-color: #000000;
+opacity: 0.80;
+color: white;
+text-align: center;
+padding-top: 40px;
+font-size: 10px;
+}
+
+.date{
+
+  float: right;
+  font-size: 15px;
+}
+
+.far{
+
+  font-size: 40px;
+}
+
+.btn-outline-success{
+
+  color: #000000;
+  border-color: #000000;
+}
+
+.btn-secondary{
+
+  color: #000000;
+  background-color: white;
+  border-color: white;
+}
+
+.btnCountry{
+
+  font-size: 12px;
+  padding-right: 0px;
+}
+
+.dropdown-menu {
+  width: 40px;
+}
+
+.dropdown-item{
+
+  padding: 0;
+}
