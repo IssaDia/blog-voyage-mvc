@@ -4,9 +4,10 @@ include("../model/model.php");
 //2.analyse de l'URL filtrage NTU
 if(isset($_GET['id']) && !empty($_GET['id'])) {
 
-$id= filter_var($_GET['id'], FILTER_VALIDATE_INT);
-$article= getArticleById($id);
-}else{
+    $id= filter_var($_GET['id'], FILTER_VALIDATE_INT);
+    $article= getArticleById($id);
+}
+else{
   header("Location: listeController.php");
 }
 

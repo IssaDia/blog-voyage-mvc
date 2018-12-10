@@ -12,13 +12,10 @@
     //4. appeler le bon template (la bonne vue).
     $id = filter_var($_POST['article'],FILTER_SANITIZE_STRING,FILTER_NULL_ON_FAILURE);
 
-if(isset($_POST['update'])) {
-  if(!empty($_POST['article'])) {
-
-
-$resultats = getArticleById($id);
-  include("../views/processModifyArticleView.php");
-
+    if(isset($_POST['update'])) {
+      if(!empty($_POST['article'])) {
+          $resultats = getArticleById($id);
+          include("../views/processModifyArticleView.php");
 }
 }
 

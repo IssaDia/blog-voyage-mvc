@@ -1,14 +1,14 @@
 <h2>Ajouter un article :</h2>
   <form action="../controllers/processAddArticleController.php" method="post" enctype="multipart/form-data">
-  <div class="form-group">
-    <h3>Titre de votre Article :</h3>
-    <input type="text" class="form-control" id="usr" name="titre">
-  </div>
-    <h3>Contenu de votre Article :</h3>
-  <div class="form-group">
-    <textarea class="form-control" rows="10" cols="40" id="comment" name="texte"></textarea>
-  </div>
-    <h3>Photo de votre Article :</h3>
+    <div class="form-group">
+      <h3>Titre de votre Article :</h3>
+      <input type="text" class="form-control" id="usr" name="titre">
+    </div>
+      <h3>Contenu de votre Article :</h3>
+    <div class="form-group">
+      <textarea class="form-control" rows="10" cols="40" id="comment" name="texte"></textarea>
+    </div>
+      <h3>Photo de votre Article :</h3>
       <input type="file" name="images" value="fileupload" id="fileupload" style="height: 20px"><br>
       <input type="submit" value="Valider" />
   </form>

@@ -13,10 +13,9 @@
     //3. récupérer si besoin des données dans le model
 
     if(isset($_POST['submit'])) {
-  if(isset($titre) && isset($texte)) {
-
-    updateArticle($titre,$texte,$id);
-  }
-    };
-include("../views/successModifyView.php");
+      if(isset($titre) && isset($texte)) {
+        updateArticle($titre,$texte,$id);
+ }
+};
+    include("../views/successModifyView.php");
 ?>
