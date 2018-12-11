@@ -152,3 +152,9 @@ Stack trace:
 [11-Dec-2018 13:17:46 Europe/Berlin] PHP Warning:  include(): Failed opening 'Templates/footer.php' for inclusion (include_path='.:/opt/lampp/lib/php') in /opt/lampp/htdocs/blogVoyage_MVC/views/listeArticlesView.php on line 44
 [11-Dec-2018 13:18:28 Europe/Berlin] PHP Warning:  include(Templates/footer.php): failed to open stream: Aucun fichier ou dossier de ce type in /opt/lampp/htdocs/blogVoyage_MVC/views/listeArticlesView.php on line 44
 [11-Dec-2018 13:18:28 Europe/Berlin] PHP Warning:  include(): Failed opening 'Templates/footer.php' for inclusion (include_path='.:/opt/lampp/lib/php') in /opt/lampp/htdocs/blogVoyage_MVC/views/listeArticlesView.php on line 44
+[11-Dec-2018 14:25:23 Europe/Berlin] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /opt/lampp/htdocs/blogVoyage_MVC/views/nav.php on line 31
+[11-Dec-2018 14:25:50 Europe/Berlin] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /opt/lampp/htdocs/blogVoyage_MVC/views/nav.php on line 31
+[11-Dec-2018 14:25:51 Europe/Berlin] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /opt/lampp/htdocs/blogVoyage_MVC/views/nav.php on line 31
+[11-Dec-2018 14:25:51 Europe/Berlin] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /opt/lampp/htdocs/blogVoyage_MVC/views/nav.php on line 31
+[11-Dec-2018 14:25:52 Europe/Berlin] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /opt/lampp/htdocs/blogVoyage_MVC/views/nav.php on line 31
+[11-Dec-2018 14:25:52 Europe/Berlin] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /opt/lampp/htdocs/blogVoyage_MVC/views/nav.php on line 31

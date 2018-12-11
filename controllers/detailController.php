@@ -7,7 +7,7 @@ if(isset($_GET['id']) && !empty($_GET['id'])) {
     $article= getArticleById($id);
 }
 else{
-  header("Location: listeController.php");
+  header("Location: /blogVoyage_MVC/index.php");
 }
 
 //4.appeler la bonne vue

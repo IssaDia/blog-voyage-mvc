@@ -668,3 +668,5 @@ Stack trace:
 [11-Dec-2018 14:08:02 Europe/Berlin] PHP Notice:  Undefined variable: article in /opt/lampp/htdocs/blogVoyage_MVC/views/detailArticleView.php on line 16
 [11-Dec-2018 14:09:08 Europe/Berlin] PHP Warning:  include(../views/modifyArticleView.php): failed to open stream: Aucun fichier ou dossier de ce type in /opt/lampp/htdocs/blogVoyage_MVC/controllers/ModifyArticleController.php on line 7
 [11-Dec-2018 14:09:08 Europe/Berlin] PHP Warning:  include(): Failed opening '../views/modifyArticleView.php' for inclusion (include_path='.:/opt/lampp/lib/php') in /opt/lampp/htdocs/blogVoyage_MVC/controllers/ModifyArticleController.php on line 7
+[11-Dec-2018 14:19:30 Europe/Berlin] PHP Notice:  Undefined variable: continents in /opt/lampp/htdocs/blogVoyage_MVC/views/nav.php on line 18
+[11-Dec-2018 14:19:30 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /opt/lampp/htdocs/blogVoyage_MVC/views/nav.php on line 18
