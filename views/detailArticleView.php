@@ -1,7 +1,7 @@
   <!DOCTYPE html>
-  <?php include("../Templates/header.php"); ?>
-  <?php include("../Templates/nav.php"); ?>
-  <?php include("../Templates/carousel.php"); ?>
+  <?php include("header.php"); ?>
+  <?php include("nav.php"); ?>
+  <?php include("carousel.php"); ?>
   <html lang="en" dir="ltr">
     <head>
       <meta charset="utf-8">
@@ -17,5 +17,5 @@
         </div>
       </div>
     </body>
-    <?php include("../Templates/footer.php"); ?>
+    <?php include("footer.php"); ?>
   </html>

@@ -2,3 +2,10 @@
 [08-Dec-2018 22:12:29 Europe/Berlin] PHP Parse error:  syntax error, unexpected '$eNum' (T_VARIABLE) in /opt/lampp/htdocs/blogVoyage_MVC/model/model.php on line 67
 [08-Dec-2018 22:13:55 Europe/Berlin] PHP Parse error:  syntax error, unexpected '$req' (T_VARIABLE) in /opt/lampp/htdocs/blogVoyage_MVC/model/model.php on line 68
 [08-Dec-2018 22:14:11 Europe/Berlin] PHP Parse error:  syntax error, unexpected '$req' (T_VARIABLE) in /opt/lampp/htdocs/blogVoyage_MVC/model/model.php on line 68
+[11-Dec-2018 14:02:53 Europe/Berlin] PHP Warning:  include(/blogVoyage_MVC/model/model.php): failed to open stream: Aucun fichier ou dossier de ce type in /opt/lampp/htdocs/blogVoyage_MVC/index.php on line 6
+[11-Dec-2018 14:02:53 Europe/Berlin] PHP Warning:  include(): Failed opening '/blogVoyage_MVC/model/model.php' for inclusion (include_path='.:/opt/lampp/lib/php') in /opt/lampp/htdocs/blogVoyage_MVC/index.php on line 6
+[11-Dec-2018 14:02:53 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function getArticleById() in /opt/lampp/htdocs/blogVoyage_MVC/controllers/detailController.php:7
+Stack trace:
+#0 /opt/lampp/htdocs/blogVoyage_MVC/index.php(21): include()
+#1 {main}
+  thrown in /opt/lampp/htdocs/blogVoyage_MVC/controllers/detailController.php on line 7

@@ -1,5 +1,5 @@
 <h2>Supprimer un article :</h2>
-  <form action="../controllers/ProcessDeleteArticlesController.php"method="post">
+  <form action="../controllers/ProcessDeleteArticlesController.php"method="post" class="form-control">
     <table>
       <tbody>
         <tr>

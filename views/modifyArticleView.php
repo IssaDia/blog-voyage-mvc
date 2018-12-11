@@ -1,6 +1,6 @@
 <div class="col-md-4">
             <h2>Modifier un article :</h2>
-           <form action="../controllers/processModifyArticlecontroller.php" method="post">
+           <form action="../controllers/processModifyArticlecontroller.php" method="post" class="form-control">
             <select name="article" id="article">
               <option selected disabled>Choisissez un article</option>
               <?php foreach ($articles as $article){ ?>

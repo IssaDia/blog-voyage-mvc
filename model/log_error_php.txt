@@ -330,3 +330,341 @@ Stack trace:
 [09-Dec-2018 12:39:57 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /opt/lampp/htdocs/blogVoyage_MVC/Templates/nav.php on line 18
 [10-Dec-2018 09:16:38 Europe/Berlin] PHP Warning:  include(views/successDeleteView.php): failed to open stream: No such file or directory in /opt/lampp/htdocs/blogVoyage_MVC/controllers/ProcessDeleteArticlesController.php on line 21
 [10-Dec-2018 09:16:38 Europe/Berlin] PHP Warning:  include(): Failed opening 'views/successDeleteView.php' for inclusion (include_path='.:/opt/lampp/lib/php') in /opt/lampp/htdocs/blogVoyage_MVC/controllers/ProcessDeleteArticlesController.php on line 21
+[10-Dec-2018 14:17:44 Europe/Berlin] PHP Notice:  Array to string conversion in /opt/lampp/htdocs/blogVoyage_MVC/controllers/listeController.php on line 28
+[10-Dec-2018 14:17:44 Europe/Berlin] PHP Notice:  Undefined variable: Array in /opt/lampp/htdocs/blogVoyage_MVC/controllers/listeController.php on line 28
+[10-Dec-2018 14:17:44 Europe/Berlin] PHP Fatal error:  Uncaught Twig_Error_Loader: Unable to find template "listeArticlesView.php" (looked into: ../Templates). in /opt/lampp/htdocs/blogVoyage_MVC/vendor/twig/twig/lib/Twig/Loader/Filesystem.php:226
+Stack trace:
+#0 /opt/lampp/htdocs/blogVoyage_MVC/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(143): Twig_Loader_Filesystem->findTemplate('listeArticlesVi...')
+#1 /opt/lampp/htdocs/blogVoyage_MVC/vendor/twig/twig/lib/Twig/Environment.php(270): Twig_Loader_Filesystem->getCacheKey('listeArticlesVi...')
+#2 /opt/lampp/htdocs/blogVoyage_MVC/vendor/twig/twig/lib/Twig/Environment.php(350): Twig_Environment->getTemplateClass('listeArticlesVi...')
+#3 /opt/lampp/htdocs/blogVoyage_MVC/vendor/twig/twig/lib/Twig/Environment.php(289): Twig_Environment->loadTemplate('listeArticlesVi...')
+#4 /opt/lampp/htdocs/blogVoyage_MVC/controllers/listeController.php(28): Twig_Environment->render('listeArticlesVi...', Array)
+#5 {main}
+  thrown in /opt/lampp/htdocs/blogVoyage_MVC/vendor/twig/twig/lib/Twig/Loader/Filesystem.php on line 226
+[10-Dec-2018 14:17:59 Europe/Berlin] PHP Fatal error:  Uncaught Twig_Error_Loader: Unable to find template "listeArticlesView.php" (looked into: ../Templates). in /opt/lampp/htdocs/blogVoyage_MVC/vendor/twig/twig/lib/Twig/Loader/Filesystem.php:226
+Stack trace:
+#0 /opt/lampp/htdocs/blogVoyage_MVC/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(143): Twig_Loader_Filesystem->findTemplate('listeArticlesVi...')
+#1 /opt/lampp/htdocs/blogVoyage_MVC/vendor/twig/twig/lib/Twig/Environment.php(270): Twig_Loader_Filesystem->getCacheKey('listeArticlesVi...')
+#2 /opt/lampp/htdocs/blogVoyage_MVC/vendor/twig/twig/lib/Twig/Environment.php(350): Twig_Environment->getTemplateClass('listeArticlesVi...')
+#3 /opt/lampp/htdocs/blogVoyage_MVC/vendor/twig/twig/lib/Twig/Environment.php(289): Twig_Environment->loadTemplate('listeArticlesVi...')
+#4 /opt/lampp/htdocs/blogVoyage_MVC/controllers/listeController.php(28): Twig_Environment->render('listeArticlesVi...', Array)
+#5 {main}
+  thrown in /opt/lampp/htdocs/blogVoyage_MVC/vendor/twig/twig/lib/Twig/Loader/Filesystem.php on line 226
+[10-Dec-2018 14:18:47 Europe/Berlin] PHP Fatal error:  Uncaught RuntimeException: Unable to create the cache directory (/template_cache/8f). in /opt/lampp/htdocs/blogVoyage_MVC/vendor/twig/twig/lib/Twig/Cache/Filesystem.php:55
+Stack trace:
+#0 /opt/lampp/htdocs/blogVoyage_MVC/vendor/twig/twig/lib/Twig/Environment.php(369): Twig_Cache_Filesystem->write('/template_cache...', '<?php\n\n/* liste...')
+#1 /opt/lampp/htdocs/blogVoyage_MVC/vendor/twig/twig/lib/Twig/Environment.php(289): Twig_Environment->loadTemplate('listeArticlesVi...')
+#2 /opt/lampp/htdocs/blogVoyage_MVC/controllers/listeController.php(28): Twig_Environment->render('listeArticlesVi...', Array)
+#3 {main}
+  thrown in /opt/lampp/htdocs/blogVoyage_MVC/vendor/twig/twig/lib/Twig/Cache/Filesystem.php on line 55
+[10-Dec-2018 14:19:34 Europe/Berlin] PHP Fatal error:  Uncaught RuntimeException: Unable to create the cache directory (/template_cache/8f). in /opt/lampp/htdocs/blogVoyage_MVC/vendor/twig/twig/lib/Twig/Cache/Filesystem.php:55
+Stack trace:
+#0 /opt/lampp/htdocs/blogVoyage_MVC/vendor/twig/twig/lib/Twig/Environment.php(369): Twig_Cache_Filesystem->write('/template_cache...', '<?php\n\n/* liste...')
+#1 /opt/lampp/htdocs/blogVoyage_MVC/vendor/twig/twig/lib/Twig/Environment.php(289): Twig_Environment->loadTemplate('listeArticlesVi...')
+#2 /opt/lampp/htdocs/blogVoyage_MVC/controllers/listeController.php(28): Twig_Environment->render('listeArticlesVi...', Array)
+#3 {main}
+  thrown in /opt/lampp/htdocs/blogVoyage_MVC/vendor/twig/twig/lib/Twig/Cache/Filesystem.php on line 55
+[10-Dec-2018 14:19:35 Europe/Berlin] PHP Fatal error:  Uncaught RuntimeException: Unable to create the cache directory (/template_cache/8f). in /opt/lampp/htdocs/blogVoyage_MVC/vendor/twig/twig/lib/Twig/Cache/Filesystem.php:55
+Stack trace:
+#0 /opt/lampp/htdocs/blogVoyage_MVC/vendor/twig/twig/lib/Twig/Environment.php(369): Twig_Cache_Filesystem->write('/template_cache...', '<?php\n\n/* liste...')
+#1 /opt/lampp/htdocs/blogVoyage_MVC/vendor/twig/twig/lib/Twig/Environment.php(289): Twig_Environment->loadTemplate('listeArticlesVi...')
+#2 /opt/lampp/htdocs/blogVoyage_MVC/controllers/listeController.php(28): Twig_Environment->render('listeArticlesVi...', Array)
+#3 {main}
+  thrown in /opt/lampp/htdocs/blogVoyage_MVC/vendor/twig/twig/lib/Twig/Cache/Filesystem.php on line 55
+[10-Dec-2018 14:19:36 Europe/Berlin] PHP Fatal error:  Uncaught RuntimeException: Unable to create the cache directory (/template_cache/8f). in /opt/lampp/htdocs/blogVoyage_MVC/vendor/twig/twig/lib/Twig/Cache/Filesystem.php:55
+Stack trace:
+#0 /opt/lampp/htdocs/blogVoyage_MVC/vendor/twig/twig/lib/Twig/Environment.php(369): Twig_Cache_Filesystem->write('/template_cache...', '<?php\n\n/* liste...')
+#1 /opt/lampp/htdocs/blogVoyage_MVC/vendor/twig/twig/lib/Twig/Environment.php(289): Twig_Environment->loadTemplate('listeArticlesVi...')
+#2 /opt/lampp/htdocs/blogVoyage_MVC/controllers/listeController.php(28): Twig_Environment->render('listeArticlesVi...', Array)
+#3 {main}
+  thrown in /opt/lampp/htdocs/blogVoyage_MVC/vendor/twig/twig/lib/Twig/Cache/Filesystem.php on line 55
+[10-Dec-2018 14:19:36 Europe/Berlin] PHP Fatal error:  Uncaught RuntimeException: Unable to create the cache directory (/template_cache/8f). in /opt/lampp/htdocs/blogVoyage_MVC/vendor/twig/twig/lib/Twig/Cache/Filesystem.php:55
+Stack trace:
+#0 /opt/lampp/htdocs/blogVoyage_MVC/vendor/twig/twig/lib/Twig/Environment.php(369): Twig_Cache_Filesystem->write('/template_cache...', '<?php\n\n/* liste...')
+#1 /opt/lampp/htdocs/blogVoyage_MVC/vendor/twig/twig/lib/Twig/Environment.php(289): Twig_Environment->loadTemplate('listeArticlesVi...')
+#2 /opt/lampp/htdocs/blogVoyage_MVC/controllers/listeController.php(28): Twig_Environment->render('listeArticlesVi...', Array)
+#3 {main}
+  thrown in /opt/lampp/htdocs/blogVoyage_MVC/vendor/twig/twig/lib/Twig/Cache/Filesystem.php on line 55
+[10-Dec-2018 14:19:36 Europe/Berlin] PHP Fatal error:  Uncaught RuntimeException: Unable to create the cache directory (/template_cache/8f). in /opt/lampp/htdocs/blogVoyage_MVC/vendor/twig/twig/lib/Twig/Cache/Filesystem.php:55
+Stack trace:
+#0 /opt/lampp/htdocs/blogVoyage_MVC/vendor/twig/twig/lib/Twig/Environment.php(369): Twig_Cache_Filesystem->write('/template_cache...', '<?php\n\n/* liste...')
+#1 /opt/lampp/htdocs/blogVoyage_MVC/vendor/twig/twig/lib/Twig/Environment.php(289): Twig_Environment->loadTemplate('listeArticlesVi...')
+#2 /opt/lampp/htdocs/blogVoyage_MVC/controllers/listeController.php(28): Twig_Environment->render('listeArticlesVi...', Array)
+#3 {main}
+  thrown in /opt/lampp/htdocs/blogVoyage_MVC/vendor/twig/twig/lib/Twig/Cache/Filesystem.php on line 55
+[10-Dec-2018 14:19:36 Europe/Berlin] PHP Fatal error:  Uncaught RuntimeException: Unable to create the cache directory (/template_cache/8f). in /opt/lampp/htdocs/blogVoyage_MVC/vendor/twig/twig/lib/Twig/Cache/Filesystem.php:55
+Stack trace:
+#0 /opt/lampp/htdocs/blogVoyage_MVC/vendor/twig/twig/lib/Twig/Environment.php(369): Twig_Cache_Filesystem->write('/template_cache...', '<?php\n\n/* liste...')
+#1 /opt/lampp/htdocs/blogVoyage_MVC/vendor/twig/twig/lib/Twig/Environment.php(289): Twig_Environment->loadTemplate('listeArticlesVi...')
+#2 /opt/lampp/htdocs/blogVoyage_MVC/controllers/listeController.php(28): Twig_Environment->render('listeArticlesVi...', Array)
+#3 {main}
+  thrown in /opt/lampp/htdocs/blogVoyage_MVC/vendor/twig/twig/lib/Twig/Cache/Filesystem.php on line 55
+[10-Dec-2018 14:19:36 Europe/Berlin] PHP Fatal error:  Uncaught RuntimeException: Unable to create the cache directory (/template_cache/8f). in /opt/lampp/htdocs/blogVoyage_MVC/vendor/twig/twig/lib/Twig/Cache/Filesystem.php:55
+Stack trace:
+#0 /opt/lampp/htdocs/blogVoyage_MVC/vendor/twig/twig/lib/Twig/Environment.php(369): Twig_Cache_Filesystem->write('/template_cache...', '<?php\n\n/* liste...')
+#1 /opt/lampp/htdocs/blogVoyage_MVC/vendor/twig/twig/lib/Twig/Environment.php(289): Twig_Environment->loadTemplate('listeArticlesVi...')
+#2 /opt/lampp/htdocs/blogVoyage_MVC/controllers/listeController.php(28): Twig_Environment->render('listeArticlesVi...', Array)
+#3 {main}
+  thrown in /opt/lampp/htdocs/blogVoyage_MVC/vendor/twig/twig/lib/Twig/Cache/Filesystem.php on line 55
+[10-Dec-2018 14:19:36 Europe/Berlin] PHP Fatal error:  Uncaught RuntimeException: Unable to create the cache directory (/template_cache/8f). in /opt/lampp/htdocs/blogVoyage_MVC/vendor/twig/twig/lib/Twig/Cache/Filesystem.php:55
+Stack trace:
+#0 /opt/lampp/htdocs/blogVoyage_MVC/vendor/twig/twig/lib/Twig/Environment.php(369): Twig_Cache_Filesystem->write('/template_cache...', '<?php\n\n/* liste...')
+#1 /opt/lampp/htdocs/blogVoyage_MVC/vendor/twig/twig/lib/Twig/Environment.php(289): Twig_Environment->loadTemplate('listeArticlesVi...')
+#2 /opt/lampp/htdocs/blogVoyage_MVC/controllers/listeController.php(28): Twig_Environment->render('listeArticlesVi...', Array)
+#3 {main}
+  thrown in /opt/lampp/htdocs/blogVoyage_MVC/vendor/twig/twig/lib/Twig/Cache/Filesystem.php on line 55
+[10-Dec-2018 14:20:19 Europe/Berlin] PHP Fatal error:  Uncaught RuntimeException: Unable to create the cache directory (/template_cache/8f). in /opt/lampp/htdocs/blogVoyage_MVC/vendor/twig/twig/lib/Twig/Cache/Filesystem.php:55
+Stack trace:
+#0 /opt/lampp/htdocs/blogVoyage_MVC/vendor/twig/twig/lib/Twig/Environment.php(369): Twig_Cache_Filesystem->write('/template_cache...', '<?php\n\n/* liste...')
+#1 /opt/lampp/htdocs/blogVoyage_MVC/vendor/twig/twig/lib/Twig/Environment.php(289): Twig_Environment->loadTemplate('listeArticlesVi...')
+#2 /opt/lampp/htdocs/blogVoyage_MVC/controllers/listeController.php(28): Twig_Environment->render('listeArticlesVi...', Array)
+#3 {main}
+  thrown in /opt/lampp/htdocs/blogVoyage_MVC/vendor/twig/twig/lib/Twig/Cache/Filesystem.php on line 55
+[10-Dec-2018 14:20:19 Europe/Berlin] PHP Fatal error:  Uncaught RuntimeException: Unable to create the cache directory (/template_cache/8f). in /opt/lampp/htdocs/blogVoyage_MVC/vendor/twig/twig/lib/Twig/Cache/Filesystem.php:55
+Stack trace:
+#0 /opt/lampp/htdocs/blogVoyage_MVC/vendor/twig/twig/lib/Twig/Environment.php(369): Twig_Cache_Filesystem->write('/template_cache...', '<?php\n\n/* liste...')
+#1 /opt/lampp/htdocs/blogVoyage_MVC/vendor/twig/twig/lib/Twig/Environment.php(289): Twig_Environment->loadTemplate('listeArticlesVi...')
+#2 /opt/lampp/htdocs/blogVoyage_MVC/controllers/listeController.php(28): Twig_Environment->render('listeArticlesVi...', Array)
+#3 {main}
+  thrown in /opt/lampp/htdocs/blogVoyage_MVC/vendor/twig/twig/lib/Twig/Cache/Filesystem.php on line 55
+[10-Dec-2018 14:20:19 Europe/Berlin] PHP Fatal error:  Uncaught RuntimeException: Unable to create the cache directory (/template_cache/8f). in /opt/lampp/htdocs/blogVoyage_MVC/vendor/twig/twig/lib/Twig/Cache/Filesystem.php:55
+Stack trace:
+#0 /opt/lampp/htdocs/blogVoyage_MVC/vendor/twig/twig/lib/Twig/Environment.php(369): Twig_Cache_Filesystem->write('/template_cache...', '<?php\n\n/* liste...')
+#1 /opt/lampp/htdocs/blogVoyage_MVC/vendor/twig/twig/lib/Twig/Environment.php(289): Twig_Environment->loadTemplate('listeArticlesVi...')
+#2 /opt/lampp/htdocs/blogVoyage_MVC/controllers/listeController.php(28): Twig_Environment->render('listeArticlesVi...', Array)
+#3 {main}
+  thrown in /opt/lampp/htdocs/blogVoyage_MVC/vendor/twig/twig/lib/Twig/Cache/Filesystem.php on line 55
+[10-Dec-2018 14:20:19 Europe/Berlin] PHP Fatal error:  Uncaught RuntimeException: Unable to create the cache directory (/template_cache/8f). in /opt/lampp/htdocs/blogVoyage_MVC/vendor/twig/twig/lib/Twig/Cache/Filesystem.php:55
+Stack trace:
+#0 /opt/lampp/htdocs/blogVoyage_MVC/vendor/twig/twig/lib/Twig/Environment.php(369): Twig_Cache_Filesystem->write('/template_cache...', '<?php\n\n/* liste...')
+#1 /opt/lampp/htdocs/blogVoyage_MVC/vendor/twig/twig/lib/Twig/Environment.php(289): Twig_Environment->loadTemplate('listeArticlesVi...')
+#2 /opt/lampp/htdocs/blogVoyage_MVC/controllers/listeController.php(28): Twig_Environment->render('listeArticlesVi...', Array)
+#3 {main}
+  thrown in /opt/lampp/htdocs/blogVoyage_MVC/vendor/twig/twig/lib/Twig/Cache/Filesystem.php on line 55
+[10-Dec-2018 14:20:19 Europe/Berlin] PHP Fatal error:  Uncaught RuntimeException: Unable to create the cache directory (/template_cache/8f). in /opt/lampp/htdocs/blogVoyage_MVC/vendor/twig/twig/lib/Twig/Cache/Filesystem.php:55
+Stack trace:
+#0 /opt/lampp/htdocs/blogVoyage_MVC/vendor/twig/twig/lib/Twig/Environment.php(369): Twig_Cache_Filesystem->write('/template_cache...', '<?php\n\n/* liste...')
+#1 /opt/lampp/htdocs/blogVoyage_MVC/vendor/twig/twig/lib/Twig/Environment.php(289): Twig_Environment->loadTemplate('listeArticlesVi...')
+#2 /opt/lampp/htdocs/blogVoyage_MVC/controllers/listeController.php(28): Twig_Environment->render('listeArticlesVi...', Array)
+#3 {main}
+  thrown in /opt/lampp/htdocs/blogVoyage_MVC/vendor/twig/twig/lib/Twig/Cache/Filesystem.php on line 55
+[10-Dec-2018 14:20:38 Europe/Berlin] PHP Fatal error:  Uncaught RuntimeException: Unable to create the cache directory (/template_cache/8f). in /opt/lampp/htdocs/blogVoyage_MVC/vendor/twig/twig/lib/Twig/Cache/Filesystem.php:55
+Stack trace:
+#0 /opt/lampp/htdocs/blogVoyage_MVC/vendor/twig/twig/lib/Twig/Environment.php(369): Twig_Cache_Filesystem->write('/template_cache...', '<?php\n\n/* liste...')
+#1 /opt/lampp/htdocs/blogVoyage_MVC/vendor/twig/twig/lib/Twig/Environment.php(289): Twig_Environment->loadTemplate('listeArticlesVi...')
+#2 /opt/lampp/htdocs/blogVoyage_MVC/controllers/listeController.php(28): Twig_Environment->render('listeArticlesVi...', Array)
+#3 {main}
+  thrown in /opt/lampp/htdocs/blogVoyage_MVC/vendor/twig/twig/lib/Twig/Cache/Filesystem.php on line 55
+[10-Dec-2018 14:20:39 Europe/Berlin] PHP Fatal error:  Uncaught RuntimeException: Unable to create the cache directory (/template_cache/8f). in /opt/lampp/htdocs/blogVoyage_MVC/vendor/twig/twig/lib/Twig/Cache/Filesystem.php:55
+Stack trace:
+#0 /opt/lampp/htdocs/blogVoyage_MVC/vendor/twig/twig/lib/Twig/Environment.php(369): Twig_Cache_Filesystem->write('/template_cache...', '<?php\n\n/* liste...')
+#1 /opt/lampp/htdocs/blogVoyage_MVC/vendor/twig/twig/lib/Twig/Environment.php(289): Twig_Environment->loadTemplate('listeArticlesVi...')
+#2 /opt/lampp/htdocs/blogVoyage_MVC/controllers/listeController.php(28): Twig_Environment->render('listeArticlesVi...', Array)
+#3 {main}
+  thrown in /opt/lampp/htdocs/blogVoyage_MVC/vendor/twig/twig/lib/Twig/Cache/Filesystem.php on line 55
+[10-Dec-2018 14:20:39 Europe/Berlin] PHP Fatal error:  Uncaught RuntimeException: Unable to create the cache directory (/template_cache/8f). in /opt/lampp/htdocs/blogVoyage_MVC/vendor/twig/twig/lib/Twig/Cache/Filesystem.php:55
+Stack trace:
+#0 /opt/lampp/htdocs/blogVoyage_MVC/vendor/twig/twig/lib/Twig/Environment.php(369): Twig_Cache_Filesystem->write('/template_cache...', '<?php\n\n/* liste...')
+#1 /opt/lampp/htdocs/blogVoyage_MVC/vendor/twig/twig/lib/Twig/Environment.php(289): Twig_Environment->loadTemplate('listeArticlesVi...')
+#2 /opt/lampp/htdocs/blogVoyage_MVC/controllers/listeController.php(28): Twig_Environment->render('listeArticlesVi...', Array)
+#3 {main}
+  thrown in /opt/lampp/htdocs/blogVoyage_MVC/vendor/twig/twig/lib/Twig/Cache/Filesystem.php on line 55
+[10-Dec-2018 14:20:39 Europe/Berlin] PHP Fatal error:  Uncaught RuntimeException: Unable to create the cache directory (/template_cache/8f). in /opt/lampp/htdocs/blogVoyage_MVC/vendor/twig/twig/lib/Twig/Cache/Filesystem.php:55
+Stack trace:
+#0 /opt/lampp/htdocs/blogVoyage_MVC/vendor/twig/twig/lib/Twig/Environment.php(369): Twig_Cache_Filesystem->write('/template_cache...', '<?php\n\n/* liste...')
+#1 /opt/lampp/htdocs/blogVoyage_MVC/vendor/twig/twig/lib/Twig/Environment.php(289): Twig_Environment->loadTemplate('listeArticlesVi...')
+#2 /opt/lampp/htdocs/blogVoyage_MVC/controllers/listeController.php(28): Twig_Environment->render('listeArticlesVi...', Array)
+#3 {main}
+  thrown in /opt/lampp/htdocs/blogVoyage_MVC/vendor/twig/twig/lib/Twig/Cache/Filesystem.php on line 55
+[10-Dec-2018 14:21:42 Europe/Berlin] PHP Fatal error:  Uncaught RuntimeException: Unable to create the cache directory (/template_cache/8f). in /opt/lampp/htdocs/blogVoyage_MVC/vendor/twig/twig/lib/Twig/Cache/Filesystem.php:55
+Stack trace:
+#0 /opt/lampp/htdocs/blogVoyage_MVC/vendor/twig/twig/lib/Twig/Environment.php(369): Twig_Cache_Filesystem->write('/template_cache...', '<?php\n\n/* liste...')
+#1 /opt/lampp/htdocs/blogVoyage_MVC/vendor/twig/twig/lib/Twig/Environment.php(289): Twig_Environment->loadTemplate('listeArticlesVi...')
+#2 /opt/lampp/htdocs/blogVoyage_MVC/controllers/listeController.php(28): Twig_Environment->render('listeArticlesVi...', Array)
+#3 {main}
+  thrown in /opt/lampp/htdocs/blogVoyage_MVC/vendor/twig/twig/lib/Twig/Cache/Filesystem.php on line 55
+[10-Dec-2018 14:21:42 Europe/Berlin] PHP Fatal error:  Uncaught RuntimeException: Unable to create the cache directory (/template_cache/8f). in /opt/lampp/htdocs/blogVoyage_MVC/vendor/twig/twig/lib/Twig/Cache/Filesystem.php:55
+Stack trace:
+#0 /opt/lampp/htdocs/blogVoyage_MVC/vendor/twig/twig/lib/Twig/Environment.php(369): Twig_Cache_Filesystem->write('/template_cache...', '<?php\n\n/* liste...')
+#1 /opt/lampp/htdocs/blogVoyage_MVC/vendor/twig/twig/lib/Twig/Environment.php(289): Twig_Environment->loadTemplate('listeArticlesVi...')
+#2 /opt/lampp/htdocs/blogVoyage_MVC/controllers/listeController.php(28): Twig_Environment->render('listeArticlesVi...', Array)
+#3 {main}
+  thrown in /opt/lampp/htdocs/blogVoyage_MVC/vendor/twig/twig/lib/Twig/Cache/Filesystem.php on line 55
+[10-Dec-2018 14:21:42 Europe/Berlin] PHP Fatal error:  Uncaught RuntimeException: Unable to create the cache directory (/template_cache/8f). in /opt/lampp/htdocs/blogVoyage_MVC/vendor/twig/twig/lib/Twig/Cache/Filesystem.php:55
+Stack trace:
+#0 /opt/lampp/htdocs/blogVoyage_MVC/vendor/twig/twig/lib/Twig/Environment.php(369): Twig_Cache_Filesystem->write('/template_cache...', '<?php\n\n/* liste...')
+#1 /opt/lampp/htdocs/blogVoyage_MVC/vendor/twig/twig/lib/Twig/Environment.php(289): Twig_Environment->loadTemplate('listeArticlesVi...')
+#2 /opt/lampp/htdocs/blogVoyage_MVC/controllers/listeController.php(28): Twig_Environment->render('listeArticlesVi...', Array)
+#3 {main}
+  thrown in /opt/lampp/htdocs/blogVoyage_MVC/vendor/twig/twig/lib/Twig/Cache/Filesystem.php on line 55
+[10-Dec-2018 14:21:42 Europe/Berlin] PHP Fatal error:  Uncaught RuntimeException: Unable to create the cache directory (/template_cache/8f). in /opt/lampp/htdocs/blogVoyage_MVC/vendor/twig/twig/lib/Twig/Cache/Filesystem.php:55
+Stack trace:
+#0 /opt/lampp/htdocs/blogVoyage_MVC/vendor/twig/twig/lib/Twig/Environment.php(369): Twig_Cache_Filesystem->write('/template_cache...', '<?php\n\n/* liste...')
+#1 /opt/lampp/htdocs/blogVoyage_MVC/vendor/twig/twig/lib/Twig/Environment.php(289): Twig_Environment->loadTemplate('listeArticlesVi...')
+#2 /opt/lampp/htdocs/blogVoyage_MVC/controllers/listeController.php(28): Twig_Environment->render('listeArticlesVi...', Array)
+#3 {main}
+  thrown in /opt/lampp/htdocs/blogVoyage_MVC/vendor/twig/twig/lib/Twig/Cache/Filesystem.php on line 55
+[10-Dec-2018 14:21:43 Europe/Berlin] PHP Fatal error:  Uncaught RuntimeException: Unable to create the cache directory (/template_cache/8f). in /opt/lampp/htdocs/blogVoyage_MVC/vendor/twig/twig/lib/Twig/Cache/Filesystem.php:55
+Stack trace:
+#0 /opt/lampp/htdocs/blogVoyage_MVC/vendor/twig/twig/lib/Twig/Environment.php(369): Twig_Cache_Filesystem->write('/template_cache...', '<?php\n\n/* liste...')
+#1 /opt/lampp/htdocs/blogVoyage_MVC/vendor/twig/twig/lib/Twig/Environment.php(289): Twig_Environment->loadTemplate('listeArticlesVi...')
+#2 /opt/lampp/htdocs/blogVoyage_MVC/controllers/listeController.php(28): Twig_Environment->render('listeArticlesVi...', Array)
+#3 {main}
+  thrown in /opt/lampp/htdocs/blogVoyage_MVC/vendor/twig/twig/lib/Twig/Cache/Filesystem.php on line 55
+[10-Dec-2018 14:21:43 Europe/Berlin] PHP Fatal error:  Uncaught RuntimeException: Unable to create the cache directory (/template_cache/8f). in /opt/lampp/htdocs/blogVoyage_MVC/vendor/twig/twig/lib/Twig/Cache/Filesystem.php:55
+Stack trace:
+#0 /opt/lampp/htdocs/blogVoyage_MVC/vendor/twig/twig/lib/Twig/Environment.php(369): Twig_Cache_Filesystem->write('/template_cache...', '<?php\n\n/* liste...')
+#1 /opt/lampp/htdocs/blogVoyage_MVC/vendor/twig/twig/lib/Twig/Environment.php(289): Twig_Environment->loadTemplate('listeArticlesVi...')
+#2 /opt/lampp/htdocs/blogVoyage_MVC/controllers/listeController.php(28): Twig_Environment->render('listeArticlesVi...', Array)
+#3 {main}
+  thrown in /opt/lampp/htdocs/blogVoyage_MVC/vendor/twig/twig/lib/Twig/Cache/Filesystem.php on line 55
+[10-Dec-2018 14:21:44 Europe/Berlin] PHP Fatal error:  Uncaught RuntimeException: Unable to create the cache directory (/template_cache/8f). in /opt/lampp/htdocs/blogVoyage_MVC/vendor/twig/twig/lib/Twig/Cache/Filesystem.php:55
+Stack trace:
+#0 /opt/lampp/htdocs/blogVoyage_MVC/vendor/twig/twig/lib/Twig/Environment.php(369): Twig_Cache_Filesystem->write('/template_cache...', '<?php\n\n/* liste...')
+#1 /opt/lampp/htdocs/blogVoyage_MVC/vendor/twig/twig/lib/Twig/Environment.php(289): Twig_Environment->loadTemplate('listeArticlesVi...')
+#2 /opt/lampp/htdocs/blogVoyage_MVC/controllers/listeController.php(28): Twig_Environment->render('listeArticlesVi...', Array)
+#3 {main}
+  thrown in /opt/lampp/htdocs/blogVoyage_MVC/vendor/twig/twig/lib/Twig/Cache/Filesystem.php on line 55
+[10-Dec-2018 14:31:26 Europe/Berlin] PHP Notice:  Undefined variable: continents in /opt/lampp/htdocs/blogVoyage_MVC/Templates/nav.php on line 18
+[10-Dec-2018 14:31:26 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /opt/lampp/htdocs/blogVoyage_MVC/Templates/nav.php on line 18
+[10-Dec-2018 14:31:26 Europe/Berlin] PHP Notice:  Undefined variable: article in /opt/lampp/htdocs/blogVoyage_MVC/views/detailArticleView.php on line 13
+[10-Dec-2018 14:31:26 Europe/Berlin] PHP Notice:  Undefined variable: article in /opt/lampp/htdocs/blogVoyage_MVC/views/detailArticleView.php on line 14
+[10-Dec-2018 14:31:26 Europe/Berlin] PHP Notice:  Undefined variable: article in /opt/lampp/htdocs/blogVoyage_MVC/views/detailArticleView.php on line 15
+[10-Dec-2018 14:31:26 Europe/Berlin] PHP Notice:  Undefined variable: article in /opt/lampp/htdocs/blogVoyage_MVC/views/detailArticleView.php on line 16
+[10-Dec-2018 14:31:42 Europe/Berlin] PHP Notice:  Undefined variable: continents in /opt/lampp/htdocs/blogVoyage_MVC/Templates/nav.php on line 18
+[10-Dec-2018 14:31:42 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /opt/lampp/htdocs/blogVoyage_MVC/Templates/nav.php on line 18
+[10-Dec-2018 14:31:42 Europe/Berlin] PHP Notice:  Undefined variable: article in /opt/lampp/htdocs/blogVoyage_MVC/views/detailArticleView.php on line 13
+[10-Dec-2018 14:31:42 Europe/Berlin] PHP Notice:  Undefined variable: article in /opt/lampp/htdocs/blogVoyage_MVC/views/detailArticleView.php on line 14
+[10-Dec-2018 14:31:42 Europe/Berlin] PHP Notice:  Undefined variable: article in /opt/lampp/htdocs/blogVoyage_MVC/views/detailArticleView.php on line 15
+[10-Dec-2018 14:31:42 Europe/Berlin] PHP Notice:  Undefined variable: article in /opt/lampp/htdocs/blogVoyage_MVC/views/detailArticleView.php on line 16
+[10-Dec-2018 14:33:24 Europe/Berlin] PHP Notice:  Undefined variable: continents in /opt/lampp/htdocs/blogVoyage_MVC/Templates/nav.php on line 18
+[10-Dec-2018 14:33:24 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /opt/lampp/htdocs/blogVoyage_MVC/Templates/nav.php on line 18
+[10-Dec-2018 14:33:24 Europe/Berlin] PHP Notice:  Undefined variable: article in /opt/lampp/htdocs/blogVoyage_MVC/views/detailArticleView.php on line 13
+[10-Dec-2018 14:33:24 Europe/Berlin] PHP Notice:  Undefined variable: article in /opt/lampp/htdocs/blogVoyage_MVC/views/detailArticleView.php on line 14
+[10-Dec-2018 14:33:24 Europe/Berlin] PHP Notice:  Undefined variable: article in /opt/lampp/htdocs/blogVoyage_MVC/views/detailArticleView.php on line 15
+[10-Dec-2018 14:33:24 Europe/Berlin] PHP Notice:  Undefined variable: article in /opt/lampp/htdocs/blogVoyage_MVC/views/detailArticleView.php on line 16
+[10-Dec-2018 14:33:33 Europe/Berlin] PHP Notice:  Undefined variable: continents in /opt/lampp/htdocs/blogVoyage_MVC/Templates/nav.php on line 18
+[10-Dec-2018 14:33:33 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /opt/lampp/htdocs/blogVoyage_MVC/Templates/nav.php on line 18
+[10-Dec-2018 14:33:33 Europe/Berlin] PHP Notice:  Undefined variable: article in /opt/lampp/htdocs/blogVoyage_MVC/views/detailArticleView.php on line 13
+[10-Dec-2018 14:33:33 Europe/Berlin] PHP Notice:  Undefined variable: article in /opt/lampp/htdocs/blogVoyage_MVC/views/detailArticleView.php on line 14
+[10-Dec-2018 14:33:33 Europe/Berlin] PHP Notice:  Undefined variable: article in /opt/lampp/htdocs/blogVoyage_MVC/views/detailArticleView.php on line 15
+[10-Dec-2018 14:33:33 Europe/Berlin] PHP Notice:  Undefined variable: article in /opt/lampp/htdocs/blogVoyage_MVC/views/detailArticleView.php on line 16
+[10-Dec-2018 14:34:21 Europe/Berlin] PHP Notice:  Undefined variable: continents in /opt/lampp/htdocs/blogVoyage_MVC/Templates/nav.php on line 18
+[10-Dec-2018 14:34:21 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /opt/lampp/htdocs/blogVoyage_MVC/Templates/nav.php on line 18
+[10-Dec-2018 14:34:21 Europe/Berlin] PHP Notice:  Undefined variable: article in /opt/lampp/htdocs/blogVoyage_MVC/views/detailArticleView.php on line 13
+[10-Dec-2018 14:34:21 Europe/Berlin] PHP Notice:  Undefined variable: article in /opt/lampp/htdocs/blogVoyage_MVC/views/detailArticleView.php on line 14
+[10-Dec-2018 14:34:21 Europe/Berlin] PHP Notice:  Undefined variable: article in /opt/lampp/htdocs/blogVoyage_MVC/views/detailArticleView.php on line 15
+[10-Dec-2018 14:34:21 Europe/Berlin] PHP Notice:  Undefined variable: article in /opt/lampp/htdocs/blogVoyage_MVC/views/detailArticleView.php on line 16
+[10-Dec-2018 14:35:03 Europe/Berlin] PHP Notice:  Undefined variable: continents in /opt/lampp/htdocs/blogVoyage_MVC/Templates/nav.php on line 18
+[10-Dec-2018 14:35:03 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /opt/lampp/htdocs/blogVoyage_MVC/Templates/nav.php on line 18
+[10-Dec-2018 14:35:11 Europe/Berlin] PHP Notice:  Undefined variable: continents in /opt/lampp/htdocs/blogVoyage_MVC/Templates/nav.php on line 18
+[10-Dec-2018 14:35:11 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /opt/lampp/htdocs/blogVoyage_MVC/Templates/nav.php on line 18
+[10-Dec-2018 14:35:28 Europe/Berlin] PHP Notice:  Undefined variable: continents in /opt/lampp/htdocs/blogVoyage_MVC/Templates/nav.php on line 18
+[10-Dec-2018 14:35:28 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /opt/lampp/htdocs/blogVoyage_MVC/Templates/nav.php on line 18
+[10-Dec-2018 14:35:28 Europe/Berlin] PHP Notice:  Undefined variable: article in /opt/lampp/htdocs/blogVoyage_MVC/views/detailArticleView.php on line 13
+[10-Dec-2018 14:35:28 Europe/Berlin] PHP Notice:  Undefined variable: article in /opt/lampp/htdocs/blogVoyage_MVC/views/detailArticleView.php on line 14
+[10-Dec-2018 14:35:28 Europe/Berlin] PHP Notice:  Undefined variable: article in /opt/lampp/htdocs/blogVoyage_MVC/views/detailArticleView.php on line 15
+[10-Dec-2018 14:35:28 Europe/Berlin] PHP Notice:  Undefined variable: article in /opt/lampp/htdocs/blogVoyage_MVC/views/detailArticleView.php on line 16
+[11-Dec-2018 11:53:10 Europe/Berlin] PHP Warning:  include(controllers/listeController): failed to open stream: No such file or directory in /opt/lampp/htdocs/blogVoyage_MVC/index.php on line 16
+[11-Dec-2018 11:53:10 Europe/Berlin] PHP Warning:  include(): Failed opening 'controllers/listeController' for inclusion (include_path='.:/opt/lampp/lib/php') in /opt/lampp/htdocs/blogVoyage_MVC/index.php on line 16
+[11-Dec-2018 11:53:10 Europe/Berlin] PHP Warning:  include(controllers/listeController): failed to open stream: No such file or directory in /opt/lampp/htdocs/blogVoyage_MVC/index.php on line 16
+[11-Dec-2018 11:53:10 Europe/Berlin] PHP Warning:  include(): Failed opening 'controllers/listeController' for inclusion (include_path='.:/opt/lampp/lib/php') in /opt/lampp/htdocs/blogVoyage_MVC/index.php on line 16
+[11-Dec-2018 11:53:52 Europe/Berlin] PHP Warning:  include(controllers/listeController): failed to open stream: Aucun fichier ou dossier de ce type in /opt/lampp/htdocs/blogVoyage_MVC/index.php on line 16
+[11-Dec-2018 11:53:52 Europe/Berlin] PHP Warning:  include(): Failed opening 'controllers/listeController' for inclusion (include_path='.:/opt/lampp/lib/php') in /opt/lampp/htdocs/blogVoyage_MVC/index.php on line 16
+[11-Dec-2018 11:53:53 Europe/Berlin] PHP Warning:  include(controllers/listeController): failed to open stream: Aucun fichier ou dossier de ce type in /opt/lampp/htdocs/blogVoyage_MVC/index.php on line 16
+[11-Dec-2018 11:53:53 Europe/Berlin] PHP Warning:  include(): Failed opening 'controllers/listeController' for inclusion (include_path='.:/opt/lampp/lib/php') in /opt/lampp/htdocs/blogVoyage_MVC/index.php on line 16
+[11-Dec-2018 11:53:53 Europe/Berlin] PHP Warning:  include(controllers/listeController): failed to open stream: Aucun fichier ou dossier de ce type in /opt/lampp/htdocs/blogVoyage_MVC/index.php on line 16
+[11-Dec-2018 11:53:53 Europe/Berlin] PHP Warning:  include(): Failed opening 'controllers/listeController' for inclusion (include_path='.:/opt/lampp/lib/php') in /opt/lampp/htdocs/blogVoyage_MVC/index.php on line 16
+[11-Dec-2018 11:53:53 Europe/Berlin] PHP Warning:  include(controllers/listeController): failed to open stream: Aucun fichier ou dossier de ce type in /opt/lampp/htdocs/blogVoyage_MVC/index.php on line 16
+[11-Dec-2018 11:53:53 Europe/Berlin] PHP Warning:  include(): Failed opening 'controllers/listeController' for inclusion (include_path='.:/opt/lampp/lib/php') in /opt/lampp/htdocs/blogVoyage_MVC/index.php on line 16
+[11-Dec-2018 11:53:53 Europe/Berlin] PHP Warning:  include(controllers/listeController): failed to open stream: Aucun fichier ou dossier de ce type in /opt/lampp/htdocs/blogVoyage_MVC/index.php on line 16
+[11-Dec-2018 11:53:53 Europe/Berlin] PHP Warning:  include(): Failed opening 'controllers/listeController' for inclusion (include_path='.:/opt/lampp/lib/php') in /opt/lampp/htdocs/blogVoyage_MVC/index.php on line 16
+[11-Dec-2018 11:53:54 Europe/Berlin] PHP Warning:  include(controllers/listeController): failed to open stream: Aucun fichier ou dossier de ce type in /opt/lampp/htdocs/blogVoyage_MVC/index.php on line 16
+[11-Dec-2018 11:53:54 Europe/Berlin] PHP Warning:  include(): Failed opening 'controllers/listeController' for inclusion (include_path='.:/opt/lampp/lib/php') in /opt/lampp/htdocs/blogVoyage_MVC/index.php on line 16
+[11-Dec-2018 11:54:00 Europe/Berlin] PHP Warning:  include(controllers/listeController): failed to open stream: No such file or directory in /opt/lampp/htdocs/blogVoyage_MVC/index.php on line 16
+[11-Dec-2018 11:54:00 Europe/Berlin] PHP Warning:  include(): Failed opening 'controllers/listeController' for inclusion (include_path='.:/opt/lampp/lib/php') in /opt/lampp/htdocs/blogVoyage_MVC/index.php on line 16
+[11-Dec-2018 13:26:43 Europe/Berlin] PHP Fatal error:  Cannot redeclare connectDB() (previously declared in /opt/lampp/htdocs/blogVoyage_MVC/model/model.php:13) in /opt/lampp/htdocs/blogVoyage_MVC/model/model.php on line 20
+[11-Dec-2018 13:27:15 Europe/Berlin] PHP Warning:  include(Templates/header.php): failed to open stream: Aucun fichier ou dossier de ce type in /opt/lampp/htdocs/blogVoyage_MVC/views/detailArticleView.php on line 2
+[11-Dec-2018 13:27:15 Europe/Berlin] PHP Warning:  include(): Failed opening 'Templates/header.php' for inclusion (include_path='.:/opt/lampp/lib/php') in /opt/lampp/htdocs/blogVoyage_MVC/views/detailArticleView.php on line 2
+[11-Dec-2018 13:27:15 Europe/Berlin] PHP Warning:  include(Templates/nav.php): failed to open stream: Aucun fichier ou dossier de ce type in /opt/lampp/htdocs/blogVoyage_MVC/views/detailArticleView.php on line 3
+[11-Dec-2018 13:27:15 Europe/Berlin] PHP Warning:  include(): Failed opening 'Templates/nav.php' for inclusion (include_path='.:/opt/lampp/lib/php') in /opt/lampp/htdocs/blogVoyage_MVC/views/detailArticleView.php on line 3
+[11-Dec-2018 13:27:15 Europe/Berlin] PHP Warning:  include(Templates/carousel.php): failed to open stream: Aucun fichier ou dossier de ce type in /opt/lampp/htdocs/blogVoyage_MVC/views/detailArticleView.php on line 4
+[11-Dec-2018 13:27:15 Europe/Berlin] PHP Warning:  include(): Failed opening 'Templates/carousel.php' for inclusion (include_path='.:/opt/lampp/lib/php') in /opt/lampp/htdocs/blogVoyage_MVC/views/detailArticleView.php on line 4
+[11-Dec-2018 13:27:15 Europe/Berlin] PHP Notice:  Undefined variable: article in /opt/lampp/htdocs/blogVoyage_MVC/views/detailArticleView.php on line 13
+[11-Dec-2018 13:27:15 Europe/Berlin] PHP Notice:  Undefined variable: article in /opt/lampp/htdocs/blogVoyage_MVC/views/detailArticleView.php on line 14
+[11-Dec-2018 13:27:15 Europe/Berlin] PHP Notice:  Undefined variable: article in /opt/lampp/htdocs/blogVoyage_MVC/views/detailArticleView.php on line 15
+[11-Dec-2018 13:27:15 Europe/Berlin] PHP Notice:  Undefined variable: article in /opt/lampp/htdocs/blogVoyage_MVC/views/detailArticleView.php on line 16
+[11-Dec-2018 13:27:15 Europe/Berlin] PHP Warning:  include(Templates/footer.php): failed to open stream: Aucun fichier ou dossier de ce type in /opt/lampp/htdocs/blogVoyage_MVC/views/detailArticleView.php on line 20
+[11-Dec-2018 13:27:15 Europe/Berlin] PHP Warning:  include(): Failed opening 'Templates/footer.php' for inclusion (include_path='.:/opt/lampp/lib/php') in /opt/lampp/htdocs/blogVoyage_MVC/views/detailArticleView.php on line 20
+[11-Dec-2018 13:30:48 Europe/Berlin] PHP Warning:  include(Templates/header.php): failed to open stream: Aucun fichier ou dossier de ce type in /opt/lampp/htdocs/blogVoyage_MVC/views/detailArticleView.php on line 2
+[11-Dec-2018 13:30:48 Europe/Berlin] PHP Warning:  include(): Failed opening 'Templates/header.php' for inclusion (include_path='.:/opt/lampp/lib/php') in /opt/lampp/htdocs/blogVoyage_MVC/views/detailArticleView.php on line 2
+[11-Dec-2018 13:30:48 Europe/Berlin] PHP Warning:  include(Templates/nav.php): failed to open stream: Aucun fichier ou dossier de ce type in /opt/lampp/htdocs/blogVoyage_MVC/views/detailArticleView.php on line 3
+[11-Dec-2018 13:30:48 Europe/Berlin] PHP Warning:  include(): Failed opening 'Templates/nav.php' for inclusion (include_path='.:/opt/lampp/lib/php') in /opt/lampp/htdocs/blogVoyage_MVC/views/detailArticleView.php on line 3
+[11-Dec-2018 13:30:48 Europe/Berlin] PHP Warning:  include(Templates/carousel.php): failed to open stream: Aucun fichier ou dossier de ce type in /opt/lampp/htdocs/blogVoyage_MVC/views/detailArticleView.php on line 4
+[11-Dec-2018 13:30:48 Europe/Berlin] PHP Warning:  include(): Failed opening 'Templates/carousel.php' for inclusion (include_path='.:/opt/lampp/lib/php') in /opt/lampp/htdocs/blogVoyage_MVC/views/detailArticleView.php on line 4
+[11-Dec-2018 13:30:48 Europe/Berlin] PHP Warning:  include(Templates/footer.php): failed to open stream: Aucun fichier ou dossier de ce type in /opt/lampp/htdocs/blogVoyage_MVC/views/detailArticleView.php on line 20
+[11-Dec-2018 13:30:48 Europe/Berlin] PHP Warning:  include(): Failed opening 'Templates/footer.php' for inclusion (include_path='.:/opt/lampp/lib/php') in /opt/lampp/htdocs/blogVoyage_MVC/views/detailArticleView.php on line 20
+[11-Dec-2018 13:30:59 Europe/Berlin] PHP Warning:  include(Templates/header.php): failed to open stream: Aucun fichier ou dossier de ce type in /opt/lampp/htdocs/blogVoyage_MVC/views/detailArticleView.php on line 2
+[11-Dec-2018 13:30:59 Europe/Berlin] PHP Warning:  include(): Failed opening 'Templates/header.php' for inclusion (include_path='.:/opt/lampp/lib/php') in /opt/lampp/htdocs/blogVoyage_MVC/views/detailArticleView.php on line 2
+[11-Dec-2018 13:30:59 Europe/Berlin] PHP Warning:  include(Templates/nav.php): failed to open stream: Aucun fichier ou dossier de ce type in /opt/lampp/htdocs/blogVoyage_MVC/views/detailArticleView.php on line 3
+[11-Dec-2018 13:30:59 Europe/Berlin] PHP Warning:  include(): Failed opening 'Templates/nav.php' for inclusion (include_path='.:/opt/lampp/lib/php') in /opt/lampp/htdocs/blogVoyage_MVC/views/detailArticleView.php on line 3
+[11-Dec-2018 13:30:59 Europe/Berlin] PHP Warning:  include(Templates/carousel.php): failed to open stream: Aucun fichier ou dossier de ce type in /opt/lampp/htdocs/blogVoyage_MVC/views/detailArticleView.php on line 4
+[11-Dec-2018 13:30:59 Europe/Berlin] PHP Warning:  include(): Failed opening 'Templates/carousel.php' for inclusion (include_path='.:/opt/lampp/lib/php') in /opt/lampp/htdocs/blogVoyage_MVC/views/detailArticleView.php on line 4
+[11-Dec-2018 13:30:59 Europe/Berlin] PHP Warning:  include(Templates/footer.php): failed to open stream: Aucun fichier ou dossier de ce type in /opt/lampp/htdocs/blogVoyage_MVC/views/detailArticleView.php on line 20
+[11-Dec-2018 13:30:59 Europe/Berlin] PHP Warning:  include(): Failed opening 'Templates/footer.php' for inclusion (include_path='.:/opt/lampp/lib/php') in /opt/lampp/htdocs/blogVoyage_MVC/views/detailArticleView.php on line 20
+[11-Dec-2018 13:31:27 Europe/Berlin] PHP Notice:  Undefined variable: continents in /opt/lampp/htdocs/blogVoyage_MVC/views/nav.php on line 18
+[11-Dec-2018 13:31:27 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /opt/lampp/htdocs/blogVoyage_MVC/views/nav.php on line 18
+[11-Dec-2018 13:33:20 Europe/Berlin] PHP Notice:  Undefined variable: continents in /opt/lampp/htdocs/blogVoyage_MVC/views/nav.php on line 18
+[11-Dec-2018 13:33:20 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /opt/lampp/htdocs/blogVoyage_MVC/views/nav.php on line 18
+[11-Dec-2018 13:34:37 Europe/Berlin] PHP Notice:  Undefined variable: continents in /opt/lampp/htdocs/blogVoyage_MVC/views/nav.php on line 18
+[11-Dec-2018 13:34:37 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /opt/lampp/htdocs/blogVoyage_MVC/views/nav.php on line 18
+[11-Dec-2018 13:35:25 Europe/Berlin] PHP Notice:  Undefined variable: continents in /opt/lampp/htdocs/blogVoyage_MVC/views/nav.php on line 18
+[11-Dec-2018 13:35:25 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /opt/lampp/htdocs/blogVoyage_MVC/views/nav.php on line 18
+[11-Dec-2018 13:36:05 Europe/Berlin] PHP Notice:  Undefined variable: continents in /opt/lampp/htdocs/blogVoyage_MVC/views/nav.php on line 18
+[11-Dec-2018 13:36:05 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /opt/lampp/htdocs/blogVoyage_MVC/views/nav.php on line 18
+[11-Dec-2018 13:36:07 Europe/Berlin] PHP Notice:  Undefined variable: continents in /opt/lampp/htdocs/blogVoyage_MVC/views/nav.php on line 18
+[11-Dec-2018 13:36:07 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /opt/lampp/htdocs/blogVoyage_MVC/views/nav.php on line 18
+[11-Dec-2018 13:36:25 Europe/Berlin] PHP Notice:  Undefined variable: continents in /opt/lampp/htdocs/blogVoyage_MVC/views/nav.php on line 18
+[11-Dec-2018 13:36:25 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /opt/lampp/htdocs/blogVoyage_MVC/views/nav.php on line 18
+[11-Dec-2018 13:36:57 Europe/Berlin] PHP Notice:  Undefined variable: continents in /opt/lampp/htdocs/blogVoyage_MVC/views/nav.php on line 18
+[11-Dec-2018 13:36:57 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /opt/lampp/htdocs/blogVoyage_MVC/views/nav.php on line 18
+[11-Dec-2018 13:44:27 Europe/Berlin] PHP Notice:  Undefined variable: continents in /opt/lampp/htdocs/blogVoyage_MVC/views/nav.php on line 18
+[11-Dec-2018 13:44:27 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /opt/lampp/htdocs/blogVoyage_MVC/views/nav.php on line 18
+[11-Dec-2018 13:45:38 Europe/Berlin] PHP Notice:  Undefined variable: continents in /opt/lampp/htdocs/blogVoyage_MVC/views/nav.php on line 18
+[11-Dec-2018 13:45:38 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /opt/lampp/htdocs/blogVoyage_MVC/views/nav.php on line 18
+[11-Dec-2018 13:53:50 Europe/Berlin] PHP Notice:  Undefined variable: continents in /opt/lampp/htdocs/blogVoyage_MVC/views/nav.php on line 18
+[11-Dec-2018 13:53:50 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /opt/lampp/htdocs/blogVoyage_MVC/views/nav.php on line 18
+[11-Dec-2018 13:55:25 Europe/Berlin] PHP Notice:  Undefined variable: continents in /opt/lampp/htdocs/blogVoyage_MVC/views/nav.php on line 18
+[11-Dec-2018 13:55:25 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /opt/lampp/htdocs/blogVoyage_MVC/views/nav.php on line 18
+[11-Dec-2018 13:56:05 Europe/Berlin] PHP Notice:  Undefined variable: continents in /opt/lampp/htdocs/blogVoyage_MVC/views/nav.php on line 18
+[11-Dec-2018 13:56:05 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /opt/lampp/htdocs/blogVoyage_MVC/views/nav.php on line 18
+[11-Dec-2018 13:58:53 Europe/Berlin] PHP Notice:  Undefined variable: continents in /opt/lampp/htdocs/blogVoyage_MVC/views/nav.php on line 18
+[11-Dec-2018 13:58:53 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /opt/lampp/htdocs/blogVoyage_MVC/views/nav.php on line 18
+[11-Dec-2018 13:58:59 Europe/Berlin] PHP Notice:  Undefined variable: continents in /opt/lampp/htdocs/blogVoyage_MVC/views/nav.php on line 18
+[11-Dec-2018 13:58:59 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /opt/lampp/htdocs/blogVoyage_MVC/views/nav.php on line 18
+[11-Dec-2018 13:59:15 Europe/Berlin] PHP Notice:  Undefined variable: continents in /opt/lampp/htdocs/blogVoyage_MVC/views/nav.php on line 18
+[11-Dec-2018 13:59:15 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /opt/lampp/htdocs/blogVoyage_MVC/views/nav.php on line 18
+[11-Dec-2018 13:59:20 Europe/Berlin] PHP Notice:  Undefined variable: continents in /opt/lampp/htdocs/blogVoyage_MVC/views/nav.php on line 18
+[11-Dec-2018 13:59:20 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /opt/lampp/htdocs/blogVoyage_MVC/views/nav.php on line 18
+[11-Dec-2018 13:59:42 Europe/Berlin] PHP Notice:  Undefined variable: continents in /opt/lampp/htdocs/blogVoyage_MVC/views/nav.php on line 18
+[11-Dec-2018 13:59:42 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /opt/lampp/htdocs/blogVoyage_MVC/views/nav.php on line 18
+[11-Dec-2018 14:04:00 Europe/Berlin] PHP Warning:  include(/blogVoyage_MVC/views/detailArticleView.php): failed to open stream: Aucun fichier ou dossier de ce type in /opt/lampp/htdocs/blogVoyage_MVC/controllers/detailController.php on line 15
+[11-Dec-2018 14:04:00 Europe/Berlin] PHP Warning:  include(): Failed opening '/blogVoyage_MVC/views/detailArticleView.php' for inclusion (include_path='.:/opt/lampp/lib/php') in /opt/lampp/htdocs/blogVoyage_MVC/controllers/detailController.php on line 15
+[11-Dec-2018 14:04:01 Europe/Berlin] PHP Warning:  include(/blogVoyage_MVC/views/detailArticleView.php): failed to open stream: Aucun fichier ou dossier de ce type in /opt/lampp/htdocs/blogVoyage_MVC/controllers/detailController.php on line 15
+[11-Dec-2018 14:04:01 Europe/Berlin] PHP Warning:  include(): Failed opening '/blogVoyage_MVC/views/detailArticleView.php' for inclusion (include_path='.:/opt/lampp/lib/php') in /opt/lampp/htdocs/blogVoyage_MVC/controllers/detailController.php on line 15
+[11-Dec-2018 14:04:21 Europe/Berlin] PHP Warning:  include(/views/detailArticleView.php): failed to open stream: Aucun fichier ou dossier de ce type in /opt/lampp/htdocs/blogVoyage_MVC/controllers/detailController.php on line 15
+[11-Dec-2018 14:04:21 Europe/Berlin] PHP Warning:  include(): Failed opening '/views/detailArticleView.php' for inclusion (include_path='.:/opt/lampp/lib/php') in /opt/lampp/htdocs/blogVoyage_MVC/controllers/detailController.php on line 15
+[11-Dec-2018 14:04:26 Europe/Berlin] PHP Notice:  Undefined variable: continents in /opt/lampp/htdocs/blogVoyage_MVC/views/nav.php on line 18
+[11-Dec-2018 14:04:26 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /opt/lampp/htdocs/blogVoyage_MVC/views/nav.php on line 18
+[11-Dec-2018 14:04:34 Europe/Berlin] PHP Notice:  Undefined variable: continents in /opt/lampp/htdocs/blogVoyage_MVC/views/nav.php on line 18
+[11-Dec-2018 14:04:34 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /opt/lampp/htdocs/blogVoyage_MVC/views/nav.php on line 18
+[11-Dec-2018 14:04:40 Europe/Berlin] PHP Notice:  Undefined variable: continents in /opt/lampp/htdocs/blogVoyage_MVC/views/nav.php on line 18
+[11-Dec-2018 14:04:40 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /opt/lampp/htdocs/blogVoyage_MVC/views/nav.php on line 18
+[11-Dec-2018 14:08:02 Europe/Berlin] PHP Notice:  Undefined variable: continents in /opt/lampp/htdocs/blogVoyage_MVC/views/nav.php on line 18
+[11-Dec-2018 14:08:02 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /opt/lampp/htdocs/blogVoyage_MVC/views/nav.php on line 18
+[11-Dec-2018 14:08:02 Europe/Berlin] PHP Notice:  Undefined variable: article in /opt/lampp/htdocs/blogVoyage_MVC/views/detailArticleView.php on line 13
+[11-Dec-2018 14:08:02 Europe/Berlin] PHP Notice:  Undefined variable: article in /opt/lampp/htdocs/blogVoyage_MVC/views/detailArticleView.php on line 14
+[11-Dec-2018 14:08:02 Europe/Berlin] PHP Notice:  Undefined variable: article in /opt/lampp/htdocs/blogVoyage_MVC/views/detailArticleView.php on line 15
+[11-Dec-2018 14:08:02 Europe/Berlin] PHP Notice:  Undefined variable: article in /opt/lampp/htdocs/blogVoyage_MVC/views/detailArticleView.php on line 16
+[11-Dec-2018 14:09:08 Europe/Berlin] PHP Warning:  include(../views/modifyArticleView.php): failed to open stream: Aucun fichier ou dossier de ce type in /opt/lampp/htdocs/blogVoyage_MVC/controllers/ModifyArticleController.php on line 7
+[11-Dec-2018 14:09:08 Europe/Berlin] PHP Warning:  include(): Failed opening '../views/modifyArticleView.php' for inclusion (include_path='.:/opt/lampp/lib/php') in /opt/lampp/htdocs/blogVoyage_MVC/controllers/ModifyArticleController.php on line 7

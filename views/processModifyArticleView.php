@@ -2,7 +2,7 @@
   <div class="col-md-12 center-block">
     <h1 <?=$resultats['nom']?></h1>
 
-    <form  action="../controllers/processValidateModifyArticlecontroller.php" method="post">
+    <form  action="../controllers/processValidateModifyArticlecontroller.php" method="post" class="form-control">
       <input name="id" type="hidden" value="<?=$resultats['id']?>">
       <h2>Changez le titre de l'article : </h2>
         <input type="text" name="titre" value="<?=$resultats['nom']?>" size="50">

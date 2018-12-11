@@ -6,10 +6,10 @@
 
  ?>
 
- <?php include("../Templates/header.php"); ?>
-  <?php include("../Templates/nav.php"); ?>
- <?php include("../Templates/carousel.php"); ?>
- <?php include("../Templates/presentation.php"); ?>
+ <?php include("header.php"); ?>
+  <?php include("nav.php"); ?>
+ <?php include("carousel.php"); ?>
+ <?php include("presentation.php"); ?>
 
 
 <!DOCTYPE html>
@@ -30,9 +30,9 @@
       </div>
       <div class="row ">
         <div class="col-md-12 text-center article">
-          <img src="../assets/images/<?=$article['images']?>" class="img-fluid" alt="Responsive image" />
+          <img src="assets/images/<?=$article['images']?>" class="img-fluid" alt="Responsive image" />
           <p><?php echo substr($article['texte'],0, 200); ?>[...]
-            <a href="detailController.php?id=<?=$article['id']?>">lire la suite</a></p>
+            <a href="/blogVoyage_MVC/index.php/article?id=<?=$article['id']?>">lire la suite</a></p>
           <p class="date"><?php echo $article['date_dujour']; ?></p>
 
       </div>
@@ -41,4 +41,4 @@
   </body>
 </html>
 
- <?php include("../Templates/footer.php"); ?>
+ <?php include("footer.php"); ?>
